@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jaya — Your Recipe Library</title>
+<title>Gibble — Your Recipe Library</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Caveat:wght@400;500;600&family=Fredoka+One&display=swap');
@@ -415,11 +415,13 @@ input,textarea,select{user-select:text;-webkit-user-select:text}
   <div class="sidebar" id="sidebar">
     <button class="sidebar-close-btn" onclick="closeSidebar()" aria-label="Close menu"><i class="ti ti-x"></i></button>
     <div class="logo">
-      <svg width="90" height="44" viewBox="0 0 90 44" style="display:block;overflow:visible">
-        <text x="2"  y="36" font-family="'Fredoka One',cursive" font-size="34" fill="#52A676">j</text>
-        <text x="22" y="26" font-family="'Fredoka One',cursive" font-size="34" fill="#3A7D5C">a</text>
-        <text x="45" y="34" font-family="'Fredoka One',cursive" font-size="34" fill="#52A676">y</text>
-        <text x="66" y="24" font-family="'Fredoka One',cursive" font-size="34" fill="#3A7D5C">a</text>
+      <svg width="109" height="44" viewBox="0 0 109 44" style="display:block;overflow:visible">
+        <text x="2" y="36" font-family="'Fredoka One',cursive" font-size="34" fill="#52A676">g</text>
+        <text x="22" y="26" font-family="'Fredoka One',cursive" font-size="34" fill="#3A7D5C">i</text>
+        <text x="33" y="34" font-family="'Fredoka One',cursive" font-size="34" fill="#52A676">b</text>
+        <text x="54" y="24" font-family="'Fredoka One',cursive" font-size="34" fill="#3A7D5C">b</text>
+        <text x="74" y="32" font-family="'Fredoka One',cursive" font-size="34" fill="#52A676">l</text>
+        <text x="85" y="27" font-family="'Fredoka One',cursive" font-size="34" fill="#3A7D5C">e</text>
       </svg>
       <p style="font-size:10px;color:rgba(255,255,255,.38);margin-top:2px;letter-spacing:.06em;text-transform:uppercase">Recipe library</p>
     </div>
@@ -557,7 +559,7 @@ input,textarea,select{user-select:text;-webkit-user-select:text}
         <div class="section-lbl" style="margin-bottom:0">Community recipes</div>
         <button class="btn-ghost" style="font-size:10px;padding:3px 7px" onclick="loadCommunity()"><i class="ti ti-refresh"></i></button>
       </div>
-      <div style="font-size:11px;color:var(--ink4);margin-bottom:10px">Recipes shared by the Jaya community. Like them or save to your library.</div>
+      <div style="font-size:11px;color:var(--ink4);margin-bottom:10px">Recipes shared by the Gibble community. Like them or save to your library.</div>
       <div id="community-list"><div style="text-align:center;padding:20px;color:var(--ink4);font-size:12px"><i class="ti ti-loader spinner"></i> Loading…</div></div>
     </div>
     <div id="panel-profile" style="display:none" class="panel-body">
@@ -572,12 +574,14 @@ input,textarea,select{user-select:text;-webkit-user-select:text}
   <div class="landing">
     <nav class="landing-nav">
       <div class="landing-logo">
-        <svg width="110" height="52" viewBox="0 0 110 52" style="display:block;overflow:visible">
-          <text x="2"  y="44" font-family="'Fredoka One',cursive" font-size="42" fill="#52A676">j</text>
-          <text x="28" y="30" font-family="'Fredoka One',cursive" font-size="42" fill="#3A7D5C">a</text>
-          <text x="56" y="42" font-family="'Fredoka One',cursive" font-size="42" fill="#52A676">y</text>
-          <text x="81" y="28" font-family="'Fredoka One',cursive" font-size="42" fill="#3A7D5C">a</text>
-        </svg>
+        <svg width="133" height="52" viewBox="0 0 133 52" style="display:block;overflow:visible">
+        <text x="2" y="44" font-family="'Fredoka One',cursive" font-size="42" fill="#52A676">g</text>
+        <text x="27" y="34" font-family="'Fredoka One',cursive" font-size="42" fill="#3A7D5C">i</text>
+        <text x="41" y="42" font-family="'Fredoka One',cursive" font-size="42" fill="#52A676">b</text>
+        <text x="66" y="32" font-family="'Fredoka One',cursive" font-size="42" fill="#3A7D5C">b</text>
+        <text x="91" y="40" font-family="'Fredoka One',cursive" font-size="42" fill="#52A676">l</text>
+        <text x="104" y="35" font-family="'Fredoka One',cursive" font-size="42" fill="#3A7D5C">e</text>
+      </svg>
       </div>
       <div class="landing-nav-btns">
         <button class="btn-ghost-sm" onclick="openAuthModal('signin')">Sign in</button>
@@ -595,7 +599,7 @@ input,textarea,select{user-select:text;-webkit-user-select:text}
         <div class="landing-feat"><div class="landing-feat-icon">📸</div><div class="landing-feat-title">Import anything</div><div class="landing-feat-desc">Screenshot, URL, PDF or photo — Claude extracts the recipe instantly</div></div>
         <div class="landing-feat"><div class="landing-feat-icon">📱</div><div class="landing-feat-title">Syncs everywhere</div><div class="landing-feat-desc">Your library follows you across phone, tablet and desktop</div></div>
         <div class="landing-feat"><div class="landing-feat-icon">✨</div><div class="landing-feat-title">AI-powered discover</div><div class="landing-feat-desc">Tell Claude what you're craving and get a perfect recipe suggestion</div></div>
-        <div class="landing-feat"><div class="landing-feat-icon">🌍</div><div class="landing-feat-title">Community library</div><div class="landing-feat-desc">Browse, like and save public recipes from other Jaya users</div></div>
+        <div class="landing-feat"><div class="landing-feat-icon">🌍</div><div class="landing-feat-title">Community library</div><div class="landing-feat-desc">Browse, like and save public recipes from other Gibble users</div></div>
       </div>
     </div>
   </div>
@@ -606,11 +610,13 @@ input,textarea,select{user-select:text;-webkit-user-select:text}
   <div class="auth-card">
     <button class="auth-close" onclick="closeAuthModal()"><i class="ti ti-x"></i></button>
     <div class="auth-logo">
-      <svg width="96" height="46" viewBox="0 0 96 46" style="display:block;overflow:visible;margin-bottom:4px">
-        <text x="2"  y="38" font-family="'Fredoka One',cursive" font-size="36" fill="#52A676">j</text>
-        <text x="25" y="26" font-family="'Fredoka One',cursive" font-size="36" fill="#3A7D5C">a</text>
-        <text x="50" y="36" font-family="'Fredoka One',cursive" font-size="36" fill="#52A676">y</text>
-        <text x="73" y="24" font-family="'Fredoka One',cursive" font-size="36" fill="#3A7D5C">a</text>
+      <svg width="115" height="46" viewBox="0 0 115 46" style="display:block;overflow:visible;margin-bottom:4px">
+        <text x="2" y="38" font-family="'Fredoka One',cursive" font-size="36" fill="#52A676">g</text>
+        <text x="24" y="28" font-family="'Fredoka One',cursive" font-size="36" fill="#3A7D5C">i</text>
+        <text x="35" y="36" font-family="'Fredoka One',cursive" font-size="36" fill="#52A676">b</text>
+        <text x="57" y="26" font-family="'Fredoka One',cursive" font-size="36" fill="#3A7D5C">b</text>
+        <text x="78" y="34" font-family="'Fredoka One',cursive" font-size="36" fill="#52A676">l</text>
+        <text x="90" y="29" font-family="'Fredoka One',cursive" font-size="36" fill="#3A7D5C">e</text>
       </svg>
     </div>
     <div class="auth-tagline">Your personal recipe library</div>
@@ -734,7 +740,7 @@ async function apiFetch(path, opts={}){
   if(r.status===401){
     // Token expired — sign out and show landing
     console.warn('Auth token expired, signing out');
-    authToken=null;localStorage.removeItem('jaya_token');
+    authToken=null;localStorage.removeItem('gibble_token');
     showLanding();
     showToast('Session expired — please sign in again');
     throw new Error('Session expired');
@@ -750,7 +756,7 @@ async function dbPatch(p,b,timeoutMs=8000){
   try{
     const r=await fetch(p,{method:'PATCH',headers:getAuthHeaders(),body:JSON.stringify(b),signal:controller.signal});
     clearTimeout(timer);
-    if(r.status===401){authToken=null;localStorage.removeItem('jaya_token');showLanding();showToast('Session expired — please sign in again');throw new Error('Session expired');}
+    if(r.status===401){authToken=null;localStorage.removeItem('gibble_token');showLanding();showToast('Session expired — please sign in again');throw new Error('Session expired');}
     if(!r.ok){const e=await r.json().catch(()=>({}));throw new Error(e.error||`HTTP ${r.status}`);}
     return r.json();
   }catch(e){clearTimeout(timer);throw e;}
@@ -1747,7 +1753,7 @@ async function submitAuth(mode){
     if(!email||!password){err.textContent='Please fill in all fields.';err.style.display='block';return;}
     const btn=document.querySelector('#auth-form-signin .btn-primary');
     btn.textContent='Signing in…';btn.disabled=true;
-    try{const data=await fetch('/api/auth/signin',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,password})}).then(r=>r.json());if(data.error){err.textContent=data.error;err.style.display='block';btn.textContent='Sign in';btn.disabled=false;return;}authToken=data.session.access_token;localStorage.setItem('jaya_token',authToken);await onAuthSuccess(data.user);}
+    try{const data=await fetch('/api/auth/signin',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,password})}).then(r=>r.json());if(data.error){err.textContent=data.error;err.style.display='block';btn.textContent='Sign in';btn.disabled=false;return;}authToken=data.session.access_token;localStorage.setItem('gibble_token',authToken);await onAuthSuccess(data.user);}
     catch(e){err.textContent='Sign in failed. Try again.';err.style.display='block';btn.textContent='Sign in';btn.disabled=false;}
   }else{
     const name=document.getElementById('signup-name').value.trim(),email=document.getElementById('signup-email').value.trim(),password=document.getElementById('signup-password').value;
@@ -1760,7 +1766,7 @@ async function submitAuth(mode){
       if(data.error){err.textContent=data.error;err.style.display='block';btn.textContent='Create account';btn.disabled=false;return;}
       if(data.session){
         // Email confirmations off — signed in immediately
-        authToken=data.session.access_token;localStorage.setItem('jaya_token',authToken);await onAuthSuccess(data.user,true);
+        authToken=data.session.access_token;localStorage.setItem('gibble_token',authToken);await onAuthSuccess(data.user,true);
       } else {
         // Email confirmation required — show check-your-email screen
         document.getElementById('auth-form-signup').style.display='none';
@@ -1790,7 +1796,7 @@ async function onAuthSuccess(user,isNew=false){
 }
 async function signOut(){
   try{await dbPost('/api/auth/signout',{});}catch(e){}
-  authToken=null;currentUser=null;currentProfile=null;localStorage.removeItem('jaya_token');
+  authToken=null;currentUser=null;currentProfile=null;localStorage.removeItem('gibble_token');
   recipes=[];filterRecipes();toggleUserMenu(true);
   document.getElementById('app').style.display='none';
   showLanding();
@@ -1927,7 +1933,7 @@ function renderProfilePanel(){
   const initials=name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
   // Load saved family members from localStorage
   let family=[];
-  try{family=JSON.parse(localStorage.getItem('jaya_family')||'[]');}catch(e){}
+  try{family=JSON.parse(localStorage.getItem('gibble_family')||'[]');}catch(e){}
 
   const familyHtml=family.map((m,i)=>`
     <div style="display:flex;align-items:center;gap:9px;padding:9px 10px;border:1px solid var(--paper3);border-radius:var(--r2);background:var(--paper)">
@@ -1955,17 +1961,17 @@ function addFamilyMember(){
   const emojis=['👩','👨','🧒','👦','👧','🧑','👴','👵'];
   const colors=['#fde8c8','#d4edbe','#c8deff','#f5d6e8','#e8d6f5','#d6f5e8'];
   let family=[];
-  try{family=JSON.parse(localStorage.getItem('jaya_family')||'[]');}catch(e){}
+  try{family=JSON.parse(localStorage.getItem('gibble_family')||'[]');}catch(e){}
   family.push({name:name.trim(),diet:diet||'omnivore',emoji:emojis[family.length%emojis.length],color:colors[family.length%colors.length]});
-  localStorage.setItem('jaya_family',JSON.stringify(family));
+  localStorage.setItem('gibble_family',JSON.stringify(family));
   renderProfilePanel();
 }
 
 function removeFamilyMember(idx){
   let family=[];
-  try{family=JSON.parse(localStorage.getItem('jaya_family')||'[]');}catch(e){}
+  try{family=JSON.parse(localStorage.getItem('gibble_family')||'[]');}catch(e){}
   family.splice(idx,1);
-  localStorage.setItem('jaya_family',JSON.stringify(family));
+  localStorage.setItem('gibble_family',JSON.stringify(family));
   renderProfilePanel();
 }
 async function loadCommunity(){
@@ -2001,7 +2007,7 @@ async function loadApp(){
 }
 
 async function boot(){
-  const stored=localStorage.getItem('jaya_token');
+  const stored=localStorage.getItem('gibble_token');
   if(stored){
     authToken=stored;
     try{
@@ -2011,7 +2017,7 @@ async function boot(){
       if(!currentProfile.onboarding_done){showOnboarding();}
       else{await loadApp();}
       return;
-    }catch(e){authToken=null;localStorage.removeItem('jaya_token');}
+    }catch(e){authToken=null;localStorage.removeItem('gibble_token');}
   }
   showLanding();
 }

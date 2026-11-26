@@ -1,7 +1,7 @@
 {
-  "name": "jaya-app",
+  "name": "gibble-app",
   "version": "0.2.0",
-  "description": "Jaya — AI-powered recipe library",
+  "description": "Gibble — AI-powered recipe library",
   "type": "module",
   "main": "server.js",
   "scripts": {
