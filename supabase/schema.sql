@@ -1,5 +1,5 @@
 -- ============================================================
--- Jaya — Supabase schema v3 (user auth + public recipes)
+-- Gibble — Supabase schema v3 (user auth + public recipes)
 -- Run this in: Supabase Dashboard → SQL Editor → New query
 -- NOTE: Supabase Auth must be enabled (it is by default)
 -- ============================================================

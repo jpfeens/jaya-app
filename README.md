@@ -1,4 +1,4 @@
-# Jaya
+# Gibble
 AI-powered recipe library. Import from screenshots, URLs, PDFs or photos; plan meals; build grocery lists.
 
 ## Files
